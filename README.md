@@ -1,6 +1,5 @@
-# Assignment-Starter-Repo-Template
+# M8 T1: Set Assignment
 
-TODO: Update the above to your repo name
 
 ## Instructions for students
 
@@ -9,4 +8,17 @@ TODO: Update the above to your repo name
 
 ### Directions - Copy/Pasted from Canvas
 
-TODO
+Write a function named `in_set()` that:
+* takes two parameters, a set and a value
+* returns a boolean of True if value is in set, and False if value is not in set
+
+write a `main()` or driver function that tests your in_set() function with some values
+
+For example:
+
+| set | value (to look for) | return |
+| ---- | ---- | ---- |
+|`{'apple','banana','cherry'}`| `'apple'` | `True` |
+|`{'apple','banana','cherry'}`| `'date'` | `False` |
+|`{'apple','banana','cherry'}`| `'Apple'` | `False` |
+| `{1,2,3}` | `4` | `False` |
